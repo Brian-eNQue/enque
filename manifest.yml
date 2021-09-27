@@ -1,6 +1,5 @@
----
 applications:
- - name: enque
+  name: enque
   random-route: true
   path: ./dist
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
