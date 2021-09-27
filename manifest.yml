@@ -1,5 +1,11 @@
 ---
 applications:
  - name: enque
-   random-route: true
-   memory: 128M
+  random-route: true
+  path: ./dist
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  memory: 256M
+  env:
+  FORCE_HTTPS: true
+
+
